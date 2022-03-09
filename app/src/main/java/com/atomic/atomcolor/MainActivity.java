@@ -9,12 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.palette.graphics.Palette;
-
 import org.jetbrains.annotations.Nullable;
-
 import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
