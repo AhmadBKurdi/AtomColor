@@ -9,9 +9,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import androidx.annotation.Nullable;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.palette.graphics.Palette;
+
+import org.jetbrains.annotations.Nullable;
+
 import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView color1, color2, color3, color4, color5, color6;
     private Button button;
-    public ImageView imageView;
-    public Uri imageUri;
+    private ImageView imageView;
+    private Uri imageUri;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

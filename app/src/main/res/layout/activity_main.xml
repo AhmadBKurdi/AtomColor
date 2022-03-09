@@ -94,9 +94,8 @@
         android:id="@+id/imageView"
         android:layout_width="374dp"
         android:layout_height="323dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
