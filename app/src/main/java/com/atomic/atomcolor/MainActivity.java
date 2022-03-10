@@ -96,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 Palette.Swatch vibrantLight = palette.getLightVibrantSwatch();
                 Palette.Swatch muted = palette.getMutedSwatch();
                 Palette.Swatch mutedDark = palette.getDarkMutedSwatch();
+                Palette.Swatch mutedLight = palette.getLightMutedSwatch();
 
                 if (vibrant != null) {
                     color1.setBackgroundColor(vibrant.getRgb());
@@ -137,7 +138,6 @@ public class MainActivity extends AppCompatActivity {
                     color5.setVisibility(View.GONE);
                 }
 
-                Palette.Swatch mutedLight = palette.getLightMutedSwatch();
                 if (mutedLight != null) {
                     color6.setBackgroundColor(mutedLight.getRgb());
                     color6.setTextColor(mutedLight.getTitleTextColor());
